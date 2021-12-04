@@ -107,6 +107,11 @@ function spawnDoor(){
     invisibleBlockGroup.add(invisibleBlock);
     invisibleBlock.width = climber.width;
     invisibleBlock.height = 2;
+    
+    ghost.depth = door.depth;
+    ghost.depth+=1;
+
+    
   }
 
 }
